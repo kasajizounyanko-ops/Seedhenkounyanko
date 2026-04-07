@@ -8,6 +8,7 @@ try:
 except ImportError as e:
     print(f"[ERROR] bcsfe import failed: {e}")
     sys.exit(1)
+    
     core.core_data.init_data()
 
 
